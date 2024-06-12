@@ -1,0 +1,90 @@
+.navbar {
+  background-color: rgb(184, 74, 74);
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px 20px;
+}
+.navbar button {
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: wheat;
+  height: 24px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.container .tab-container {
+  display: flex;
+  margin-top: 40px;
+  background-color: #666666;
+  height: 60px;
+  color: whitesmoke;
+}
+
+.container .tab-container .tab-box {
+  padding: 20px;
+  cursor: pointer;
+}
+.container .tab-container .tab-box.active {
+  background-color: red;
+}
+
+.container .content {
+  border: 1px solid #222;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  min-height: 200px;
+  padding: 12px;
+}
+
+.container .content .tasks .task-card {
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.login {
+  background-color: rgb(184, 74, 74);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login-container {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.login .login-container input {
+  width: 300px;
+  height: 32px;
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.login .login-container button {
+  width: 200px;
+  outline: none;
+  border: none;
+  background-color: rgb(184, 74, 74);
+  height: 40px;
+  color: white;
+  border-radius: 8px;
+}
